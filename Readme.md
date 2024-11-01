@@ -178,16 +178,16 @@ const people = [
 
 
 const updatePersonAge=(array,name,newAge)=>{
-
+</br>
     const person = array.find((item)=>item?.name==name)
-
-    if(person){
-        person.age=newAge
-    }else{
-        console.log(`${name} not found.`);
+</br>
+    if(person){</br>
+        person.age=newAge</br>
+    }else{</br>
+        console.log(`${name} not found.`);</br>
     }
-
-    console.log(array)
+</br>
+    console.log(array)</br>
 }
 
 //call the function </br>
