@@ -18,3 +18,4 @@ while (num > 0) {
 }
 
 console.log(sum);
+console.log(sum);
